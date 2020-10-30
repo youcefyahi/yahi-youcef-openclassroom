@@ -1,0 +1,702 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    width: 91.5%;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    padding-top: 13px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #0065FC;
+    font-weight: 600;
+}
+
+nav .a:hover {
+    border-top: 2px solid #0065FC;
+}
+
+nav .b:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+nav .c {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+nav img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+/*HEADER*/
+
+
+/*------MENU INFO-------*/
+
+#menu {
+    width: 94%;
+    margin: auto;
+}
+
+#recherche {
+    display: flex;
+}
+
+#recherche button {
+    padding: 5px 20px 5px 12px;
+    background-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #0065FC;
+    color: white;
+}
+
+.position {
+    padding: 10px 10px 10px 10px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+#recherche button i {
+    display: none;
+}
+
+#filtre {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: left;
+}
+
+#filtre ul {
+    margin: auto;
+    display: inline;
+    padding-left: 12px;
+}
+
+#filtre ul li {
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+#filtre ul li i {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    right: 5px;
+}
+
+.famillial {
+    margin-left: 15px;
+}
+
+.filtreBorder {
+    padding: 10px 10px 10px 0px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+}
+
+#menu ul li {
+    display: inline;
+    font-weight: bold;
+}
+
+.introBold {
+    font-weight: bold;
+}
+
+#info p i {
+    color: #0065FC;
+}
+
+
+/*-----FIN MENU INFO------*/
+
+
+/*-----HERBERGEMENT------*/
+
+section {
+    padding: 0px 20px 0px 20px;
+}
+
+article {
+    width: 100%;
+    margin: auto;
+}
+
+#mainHebergement {
+    margin: auto;
+    padding: 23px;
+    display: flex;
+    width: 94%;
+}
+
+#hebergement {
+    padding: 10px 15px;
+    background-color: #F2F2F2;
+    width: 65%;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#hebergement h2 {
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+#hebergement p {
+    font-weight: bold;
+}
+
+#part1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#part1 img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 220px;
+    height: 120px;
+}
+
+#part2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#part2 img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 220px;
+    height: 120px;
+}
+
+#hebergement figure {
+    box-shadow: 2px 2px 2px 2px grey;
+    border: thin white solid;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#hebergement figcaption {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    text-align: left;
+}
+
+.titreFig {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*--------POPULAIRE--------*/
+
+#titrePopulaire {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titrePopulaire h2 {
+    padding-left: 35px;
+}
+
+#titrePopulaire i {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.fa-chart-line {
+    font-size: 20px;
+}
+
+#populaire {
+    padding: 20px 5px 10px 5px;
+    margin-left: 15px;
+    width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+#populaire .etoile {
+    padding-top: 40px;
+}
+
+.etoileBleu {
+    color: #0065FC;
+}
+
+.etoileGris {
+    color: #F2F2F2;
+}
+
+#populaire h2 {
+    font-weight: bold;
+}
+
+#populaire figure {
+    box-shadow: 2px 2px 2px 2px grey;
+    border: thin white solid;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+
+#populaire figure img {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100px;
+    height: 120px;
+}
+
+#populaire figure figcaption {
+    padding-left: 10px;
+    width: 50%;
+}
+
+#populaire figure figcaption .hotelPopulaire {
+    font-weight: bold;
+}
+
+#populaire figure figcaption img {
+    margin-top: 50px;
+}
+
+h4 {
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+
+/*--------FIN POPULAIRE--------*/
+
+
+/*-----FIN HERBERGEMENT------*/
+
+
+/*-----ACTIVITÉ------*/
+
+#main_activite {
+    margin: auto;
+    width: 100%;
+}
+
+#main_activite h2 {
+    margin-left: 40px;
+}
+
+#activite {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 70px;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+#activite figure {
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin: 30px;
+}
+
+.figActivité figure img {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.fort {
+    width: 312px;
+    height: 220px;
+}
+
+.iles {
+    width: 320px;
+    height: 125px;
+}
+
+.notreDame {
+    width: 320px;
+    height: 170px;
+}
+
+.parc {
+    width: 320px;
+    height: 170px;
+}
+
+.imgLongue {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 280px;
+    height: 400px;
+}
+
+#activite figure figcaption {
+    background-color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/*-----FIN ACTIVITÉ------*/
+
+
+/*----MENU INFO--------*/
+
+
+/*-----FIN MENU INFO-----*/
+
+
+/*-----FOOTER------*/
+
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: #F2F2F2;
+}
+
+#mainFooter {
+    width: 70%;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pied ul li {
+    margin-bottom: 8px;
+}
+
+footer h3 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+
+/*-----FIN FOOTER------*/
+
+
+/*-------------RESPONSIVE SMARTPHONE VERTICAL-------------- */
+
+@media screen and (min-width:320px) and (max-width:414px) {
+    body {
+        max-width: 414px;
+        min-width: 320px;
+        margin: auto;
+    }
+    /*----------HEADER-----------*/
+    header {
+        width: 90%;
+        margin: auto;
+    }
+    nav {
+        width: 100%;
+        margin: auto;
+    }
+    nav .a {
+        width: 50%;
+        position: relative;
+        top: 90px;
+        right: 170px;
+        border-bottom: 2px solid #f2f2f2;
+        padding-left: 50px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+    nav .a:hover {
+        border-top: initial;
+        border-bottom: 2px solid #0065FC;
+    }
+    nav .b {
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        position: relative;
+        top: 71px;
+        padding-right: 99px;
+        padding-left: 60px;
+        padding-bottom: 10px;
+    }
+    nav .b:hover {
+        border-top: initial;
+        border-bottom: 2px solid #0065FC;
+    }
+    nav .c {
+        color: #0065FC;
+        position: relative;
+        left: 140px;
+    }
+    /*----------FIN HEADER-----------*/
+    /*-------MENU INFO------*/
+    #filtre ul {
+        display: flex;
+    }
+    #filtre ul li i {
+        padding: 5px 5px 5px 5px;
+    }
+    .filtreBorder {
+        padding: 2px 2px 2px 2px;
+    }
+    .rechercheHiden {
+        display: none;
+    }
+    #recherche button i {
+        display: initial;
+    }
+    /*-------FIN MENU INFO------*/
+    section {
+        width: 100%;
+        padding: 50px 0px 50px 0px;
+    }
+    /*-------HEBERGEMENT--------*/
+    #mainHebergement {
+        margin: auto;
+        padding: initial;
+        flex-direction: column-reverse;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        width: 98%;
+    }
+    #hebergement {
+        width: 100%;
+        padding: initial;
+        margin-top: 40px;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 0px;
+    }
+    #part1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+    #part1 figure {
+        margin: auto;
+        width: 95%;
+        margin-bottom: 25px;
+    }
+    #part1 img {
+        width: 100%;
+        height: 130px;
+    }
+    #part2 {
+        flex-direction: column;
+        padding: 10px;
+    }
+    #part2 figure {
+        margin: auto;
+        width: 95%;
+        margin-bottom: 25px;
+    }
+    #part2 img {
+        width: 100%;
+        height: 130px
+    }
+    /*-------FIN HEBERGEMENT--------*/
+    /*-------POPULAIRE--------*/
+    #populaire {
+        padding-bottom: 15px;
+        padding: initial;
+        width: 100%;
+        margin: auto;
+        border-radius: 0px;
+    }
+    #populaire figure {
+        margin: auto;
+        width: 90%;
+        padding: 5px 5px 5px 5px;
+        display: flex;
+        margin-top: 20px;
+    }
+    /*-------FIN POPULAIRE--------*/
+    /*-------ACTIVITER--------*/
+    #main_activite {
+        width: initial;
+    }
+    #activite {
+        flex-direction: column;
+        width: initial;
+    }
+    #activite figure img {
+        width: 100%;
+        height: 130px
+    }
+    /*-------FIN ACTIVITER--------*/
+    footer {
+        width: 98%;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    #mainFooter {
+        width: 98%;
+        margin: initial;
+        text-align: left;
+        flex-direction: column;
+    }
+    footer h3 {
+        text-align: left;
+    }
+}
+
+
+/*-------------RESPONSIVE SMARTPHONE VERTICAL--------------- */
+
+
+/*-------------RESPONSIVE TABLETTE--------------- */
+
+@media screen and (min-width:667px) and (max-width:1024px) {
+    body {
+        max-width: 1023px;
+        min-width: 667px;
+        margin: auto;
+    }
+    /*-------MENU INFO------*/
+    #filtre ul li i {
+        padding: 5px 5px 5px 5px;
+    }
+    .filtreBorder {
+        padding: 2px 2px 2px 2px;
+    }
+    .rechercheHiden {
+        display: none;
+    }
+    #recherche button i {
+        display: initial;
+    }
+    /*-------FIN MENU INFO------*/
+    section {
+        width: 100%;
+        padding: 50px 0px 50px 0px;
+    }
+    /*-------HEBERGEMENT--------*/
+    #mainHebergement {
+        margin: auto;
+        padding: initial;
+        flex-direction: column-reverse;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        width: 98%;
+    }
+    #hebergement {
+        width: 100%;
+        padding: initial;
+        padding-top: 50px;
+        border-radius: 0px;
+        background-color: white;
+    }
+    #part1 {
+        padding: 10px;
+    }
+    #part1 figure {
+        margin: auto;
+        margin: 5px;
+        width: 95%;
+        margin-bottom: 25px;
+    }
+    #part1 img {
+        width: 100%;
+        height: 130px;
+    }
+    #part2 {
+        padding: 10px;
+    }
+    #part2 figure {
+        margin: auto;
+        margin: 5px;
+        width: 95%;
+        margin-bottom: 25px;
+    }
+    #part2 img {
+        object-fit: cover;
+        width: 100%;
+        height: 130px
+    }
+    /*-------FIN HEBERGEMENT--------*/
+    /*-------POPULAIRE--------*/
+    #populaire {
+        padding-bottom: 15px;
+        padding: initial;
+        width: 100%;
+        margin: auto;
+        border-radius: 0px;
+        border: 2px solid black;
+    }
+    #populaire figure {
+        display: flex;
+        width: 60%;
+        margin: auto;
+        padding: 5px 5px 5px 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+    }
+    #populaire figure img {
+        width: 80%;
+    }
+    /*-------FIN POPULAIRE--------*/
+    /*-------ACTIVITER--------*/
+    #main_activite {
+        width: initial;
+    }
+    #activite {
+        flex-direction: column;
+        width: initial;
+    }
+    .figActivité {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .figActivité figure {
+        width: 80%;
+    }
+    #activite figure img {
+        object-fit: cover;
+        width: 100%;
+        height: 130px
+    }
+    /*-------FIN ACTIVITER--------*/
+}
+
+
+/*-------------RESPONSIVE TABLETTE--------------- */
