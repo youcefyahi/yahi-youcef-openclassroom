@@ -15,11 +15,11 @@
 <body>
     <header>
         <nav>
-            <img src="images/logo/Reservia@3x.png" />
+            <img src="images/logo/Reservia@3x.png" alt="logo reservia" />
             <ul>
-                <li class="a"><a href="#hebergement">Hébergements</a></li>
-                <li class="b"><a href="#activite">Activités</a></li>
-                <li class="c">S'inscrire</li>
+                <li id="first"><a href="#hebergement">Hébergements</a></li>
+                <li id="second"><a href="#activite">Activités</a></li>
+                <li id="last">S'inscrire</li>
             </ul>
         </nav>
 
@@ -31,11 +31,11 @@
         <article>
             <div id="menu">
                 <div id="intro">
-                    <p><span class="introBold"> Votre Hébergement pour des vacanse de reve</span><br>En plein centre ville ou en pleine nature</p>
+                    <p><span id="introBold"> Trouvez votre hébergement pour des vacances de rêve<br /></span><span id="sousIntro">En plein centre ville ou en pleine nature</span></p>
                 </div>
                 <div id="recherche">
 
-                    <i class="fas fa-map-marker-alt position"></i> <input type="search" id="searchip" name="q" aria-label="Search through site content"><button><i class="fas fa-search"></i><span class="rechercheHiden">recherche</span></button>
+                    <i class="fas fa-map-marker-alt"></i> <input type="search" id="searchip" value="Marseille, france" name="q" aria-label="Search through site content"><button><i class="fas fa-search"></i><span class="rechercheHiden">Rechercher</span></button>
                 </div>
                 <div id="filtre">
                     <ul>
@@ -49,11 +49,11 @@
                         <li class="filtreBorder"><i class="fas fa-heart"></i> Romantique</li>
                     </ul>
                     <ul>
-                        <li class="filtreBorder"><i class="fas fa-dog"></i> Animaux autorisé</li>
+                        <li class="filtreBorder"><i class="fas fa-dog"></i> Animaux autorisés</li>
                     </ul>
                 </div>
                 <div id="info">
-                    <p><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+                    <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville.</p>
                 </div>
             </div>
         </article>
@@ -63,44 +63,62 @@
                     <h2 class="titre">Hebergement à marseille</h2>
                     <div id="part1">
                         <figure>
-                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Elephant at sunset" />
-                            <figcaption><span class="titreFig">La Cannebière</span><br />Nuit a partir de 25€ <br /><i class="fas fa-star  etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
-                                <i class="fas fa-star etoile etoileGris"></i>
-                            </figcaption>
+
+                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" />
+                            <figcaption><a href=""><span class="titreFig">Auberge la Cannebière</span><br />Nuit a partir de 25€ <br /></a><i class="fas fa-star  etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+                                <i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileGris"></i></figcaption>
+
                         </figure>
                         <figure>
-                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Elephant at sunset" />
-                            <figcaption><span class="titreFig">Hotel du port</span><br>Nuit a partir de 52€<br><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />
+                            <figcaption><a href="#"><span class="titreFig">Hôtel du port</span><br>Nuit a partir de 52€<br></a><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
                                 <i class="fas fa-star etoile etoileBleu"></i>
-                            </figcaption>
+                                <i class="fas fa-star etoile etoileBleu"></i> </figcaption>
+
                         </figure>
                         <figure>
-                            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Elephant at sunset" />
-                            <figcaption><span class="titreFig">Hotel Les mouettes</span><br>Nuit a partir de 76€<br><i class="fas fa-star etoile  etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star  etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+
+                            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" />
+                            <figcaption>
+                                <a href="#"><span class="titreFig">Hôtel Les mouettes</span><br>Nuit a partir de 76€<br></a><i class="fas fa-star etoile  etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star  etoile etoileBleu"></i>
+                                <i class="fas fa-star etoile etoileBleu"></i>
                                 <i class="fas fa-star etoile etoileGris"></i>
                             </figcaption>
+
                         </figure>
                     </div>
                     <div id="part2">
                         <figure>
-                            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Elephant at sunset" />
-                            <figcaption><span class="titreFig">Hotel de la mer</span><br>Nuit a partir de 46€<br><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileGris"></i>
+
+                            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
+                            <figcaption>
+                                <a href="#"><span class="titreFig">Hôtel de la mer</span><br>Nuit a partir de 46€<br></a><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+                                <i class="fas fa-star etoile etoileGris"></i>
                                 <i class="fas fa-star etoile etoileGris"></i>
                             </figcaption>
+
                         </figure>
                         <figure>
-                            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Elephant at sunset" />
-                            <figcaption><span class="titreFig">Auberge Le panier</span><br>Nuit a partir de 23€<br><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+
+                            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le panie" />
+                            <figcaption>
+                                <a href="#"><span class="titreFig">Auberge Le panier</span><br>Nuit a partir de 23€<br></a><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+                                <i class="fas fa-star etoile etoileBleu"></i>
                                 <i class="fas fa-star etoile etoileGris"></i></figcaption>
+
                         </figure>
                         <figure>
-                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Elephant at sunset" />
-                            <figcaption><span class="titreFig">Hotel chez Amina</span><br>Nuit a partir de 96€<br><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+
+                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina" />
+                            <figcaption>
+                                <a href="#"><span class="titreFig">Hotel chez Amina</span><br>Nuit a partir de 96€<br></a><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+                                <i class="fas fa-star etoile etoileBleu"></i>
                                 <i class="fas fa-star etoile etoileBleu"></i>
                             </figcaption>
+
                         </figure>
                     </div>
-                    <h4>Afficher plus</h4>
+                    <p id="afficher">Afficher plus</p>
                 </div>
                 <div id="populaire">
                     <div id="titrePopulaire">
@@ -108,25 +126,32 @@
                     </div>
 
                     <figure>
-                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Elephant at sunset" />
-                        <figcaption><span class="hotelPopulaire">Hotel le soleil du matin<br /></span>Nuit a partir de 128€<br /><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel le soleil du matin" />
+                        <figcaption><a href="#"><span class="hotelPopulaire">Hôtel le soleil du matin<br /></span>Nuit a partir de 128€<br /></a><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
                             <i class="fas fa-star etoile etoileBleu"></i>
                             <i class="fas fa-star etoile etoileBleu"></i>
+
                         </figcaption>
+
                     </figure>
                     <figure>
-                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Elephant at sunset" />
-                        <figcaption><span class="hotelPopulaire">Au coeur de l'eau Chambres d'hotes</span><br>nuit a partir de 71€<br><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star  etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+
+                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" />
+                        <figcaption><a href="#"><span class="hotelPopulaire">Au coeur de l'eau Chambres d'hôtes</span><br>nuit a partir de 71€<br></a><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star  etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
                             <i class="fas fa-star etoile etoileBleu"></i>
                             <i class="fas fa-star etoile etoileGris"></i>
                         </figcaption>
+
                     </figure>
                     <figure>
-                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Elephant at sunset" />
-                        <figcaption><span class="hotelPopulaire">Hotel tout bleu tout blanc</span><br>Nuit a partir de 68€<br><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
+
+                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et blanc" />
+                        <figcaption><a href="#"><span class="hotelPopulaire">Hôtel tout bleu et blanc</span><br>Nuit a partir de 68€<br><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i><i class="fas fa-star etoile etoileBleu"></i>
                             <i class="fas fa-star etoile etoileBleu"></i>
-                            <i class="fas fa-star etoile etoileGris"></i>
+                            <i class="fas fa-star etoile etoileGris"></i></a>
                         </figcaption>
+
                     </figure>
                 </div>
             </div>
@@ -136,30 +161,30 @@
                 <h2>Activité à marseille</h2>
                 <div id="activite">
                     <figure>
-                        <img class="imgLongue" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Elephant at sunset" />
+                        <img class="imgLongue" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" />
                         <figcaption>Vieux Port</figcaption>
                     </figure>
                     <div class="figActivité">
                         <figure>
-                            <img class="fort" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Elephant at sunset" />
+                            <img class="fort" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" />
                             <figcaption>Fort de Pomègues</figcaption>
                         </figure>
                         <figure>
-                            <img class="iles" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Elephant at sunset" />
-                            <figcaption>Iles de Frioul</figcaption>
+                            <img class="iles" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="îles de Frioul" />
+                            <figcaption>îles de Frioul</figcaption>
                         </figure>
                     </div>
                     <figure>
-                        <img class="imgLongue" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Elephant at sunset" />
+                        <img class="imgLongue" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" />
                         <figcaption>Parc National des Calanques</figcaption>
                     </figure>
                     <div class="figActivité">
                         <figure>
-                            <img class="notreDame" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Elephant at sunset" />
+                            <img class="notreDame" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" />
                             <figcaption>Notre-Dame-de-la-Garde</figcaption>
                         </figure>
                         <figure>
-                            <img class="parc" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Elephant at sunset" />
+                            <img class="parc" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" />
                             <figcaption>Parc Longchamp</figcaption>
                         </figure>
                     </div>
@@ -173,22 +198,22 @@
 
     <footer id="footer">
         <div id="mainFooter">
-            <div class="pied">
+            <div class="footerElement">
                 <h3>A propos</h3>
                 <ul>
                     <li>Fonctionnement du site</li>
-                    <li>Conditions gélérales de ventes</li>
+                    <li>Conditions générales de vente</li>
                     <li>Données et confidentialité</li>
                 </ul>
             </div>
-            <div class="pied">
-                <h3>Nos Herbergement</h3>
+            <div class="footerElement">
+                <h3>Nos Herbergements</h3>
                 <ul>
                     <li>Charte qualité</li>
-                    <li>Soumettre votre hotel</li>
+                    <li>Soumettre votre hôtel</li>
                 </ul>
             </div>
-            <div class="pied">
+            <div class="footerElement">
                 <h3>Assistance</h3>
                 <ul>
                     <li>Centre d'aide</li>
